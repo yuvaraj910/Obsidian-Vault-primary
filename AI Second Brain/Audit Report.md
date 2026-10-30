@@ -1,7 +1,7 @@
 # Obsidian Second Brain Audit
 
 **Refreshed:** 2026-10-30  
-**Vault root:** `Primary/`  
+**Vault root:** `Obsidian-Vault-primary/`  
 **Scope:** 40 Markdown files, one `.canvas` file, and 21 regular folders. This refresh supersedes the earlier snapshot; the earlier claims that the structure canvas was absent and no community plugins were enabled are no longer current.
 
 I inspected the current note contents, indexes, templates, workflow notes, Canvas JSON, Excalidraw text/link metadata, filenames, and relevant Obsidian plugin identifiers/settings. I did not read the contents of the two protected `Databases/` files or the file in `.trash/`; the database files are both zero bytes. I did not inspect credentials or plugin data values. The original [[The Start/Start Here|Start Here]] page remains unchanged. This audit writes only this report.
@@ -9,7 +9,7 @@ I inspected the current note contents, indexes, templates, workflow notes, Canva
 ## 1. Current structure overview
 
 ```text
-Primary/
+Obsidian-Vault-primary/
 ├── Current weakness.md
 ├── Rules and Structure.md
 ├── Sorting System.md
@@ -72,7 +72,7 @@ Primary/
     └── to do list/                          [empty]
 ```
 
-Operational areas are outside the regular note tree: `.obsidian/`, `.stfolder/`, and `.trash/`. `.trash/` contains a file named `Weekly Study time records.md`; its contents were not inspected. `.stfolder/` contains a Syncthing marker. The vault has the Excalidraw and Git community plugins enabled; core Canvas, Templates, Properties, Bases, and Sync are enabled. `alwaysUpdateLinks` is true. No Notion community plugin or vault-root `AGENTS.md` was found in the inspected inventory. The vault root is not a Git working tree, so the installed Git plugin should not be treated as proof of a working backup.
+Operational areas are outside the regular note tree: `.obsidian/`, `.stfolder/`, and `.trash/`. `.trash/` contains a file named `Weekly Study time records.md`; its contents were not inspected. `.stfolder/` contains a Syncthing marker. The vault has the Excalidraw and Git community plugins enabled; core Canvas, Templates, Properties, Bases, and Sync are enabled. `alwaysUpdateLinks` is true. No Notion community plugin or vault-root `AGENTS.md` was found in the inspected inventory. The vault root is a Git working tree on branch `main` tracking `origin/main`; this audit did not inspect remote configuration or verify backup contents. At the final check, Git shows this report modified and an untracked `.obsidian/plugins/obsidian-git/data.json`; I did not read or modify that plugin file, and its origin is unverified.
 
 ## 2. Organizational principles inferred from the notes
 
@@ -122,7 +122,7 @@ Operational areas are outside the regular note tree: `.obsidian/`, `.stfolder/`,
 - `Reuse block/Templates/Weekly Study time records Template.md` may be an example, a reusable template, or a real record. The active note and the same-named trash item need a user decision before either is blanked, restored, or removed.
 - The `Excalidraw/Drawing 2026-10-30 11.01.34.excalidraw.md` drawing is not linked from the inspected Markdown indexes. It may be an intentional scratch drawing. I checked its file wrapper, not its rendered visual content.
 - The core Templates plugin is enabled, but the inspected `app.json` had no template-folder preference. Confirm whether `Reuse block/Templates/` is configured for the core plugin or used manually.
-- Workflow notes refer to GitHub and Notion. Git is enabled as a community plugin, but the vault root is not a Git repository; no Notion plugin is enabled in the vault. External applications or scripts may still exist outside this vault.
+- Workflow notes refer to GitHub and Notion. Obsidian Git is enabled and this vault is a Git working tree; no Notion community plugin is enabled in the vault. External applications or scripts may still exist outside this vault.
 
 ## 6. Recommended target architecture and current-to-target mapping
 
@@ -177,7 +177,7 @@ Check wikilinks, embeds, Excalidraw link maps, Canvas nodes, and the weekly revi
 ## 9. Risks involving links, templates, plugins, databases, and workflows
 
 - The current file-path scan found two unresolved note links and one missing Canvas file target. Filesystem moves can break wikilinks, embeds, Excalidraw URI links, and Canvas node paths even when `alwaysUpdateLinks` is enabled; verify changes in Obsidian.
-- Obsidian Git is enabled, but no `.git` repository was detected at the vault root. Obsidian Sync is enabled and a Syncthing marker exists. Confirm the actual backup/sync arrangement and whether any external automation is active before bulk moves.
+- Obsidian Git is enabled and a `.git` repository was detected at the vault root (`main` tracking `origin/main`). Obsidian Sync is enabled and a Syncthing marker exists. Confirm the actual backup/sync arrangement and whether any external automation is active before bulk moves.
 - The Excalidraw plugin is enabled and the visual notebook contains `obsidian://open` links. Preserve exact target paths and test them in the plugin after any approved rename.
 - `Databases/` has two zero-byte Markdown files. No schema or application data was inspected; filenames alone do not establish whether an external app relies on them.
 - `.trash/Weekly Study time records.md` is retained by Obsidian and was not restored or deleted. Do not treat `.trash/` as an archive or as safe to purge.
