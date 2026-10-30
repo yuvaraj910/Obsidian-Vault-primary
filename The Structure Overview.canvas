@@ -1,0 +1,600 @@
+{
+  "nodes": [
+    {
+      "id": "g-memori",
+      "type": "group",
+      "x": 880,
+      "y": 30,
+      "width": 1140,
+      "height": 1320,
+      "color": "4",
+      "label": "Memori/"
+    },
+    {
+      "id": "g-templates",
+      "type": "group",
+      "x": 800,
+      "y": 1560,
+      "width": 1430,
+      "height": 900,
+      "color": "6",
+      "label": "Reuse block/"
+    },
+    {
+      "id": "g-support",
+      "type": "group",
+      "x": 3050,
+      "y": 1530,
+      "width": 1410,
+      "height": 480,
+      "color": "#6B7280",
+      "label": "Vault support folders"
+    },
+    {
+      "id": "g-resources",
+      "type": "group",
+      "x": 2100,
+      "y": 170,
+      "width": 610,
+      "height": 1045,
+      "color": "5",
+      "label": "Resources/"
+    },
+    {
+      "id": "g-databases",
+      "type": "group",
+      "x": 2750,
+      "y": 170,
+      "width": 600,
+      "height": 816,
+      "color": "2",
+      "label": "Databases/"
+    },
+    {
+      "id": "g-planning",
+      "type": "group",
+      "x": 110,
+      "y": 1560,
+      "width": 650,
+      "height": 800,
+      "color": "6",
+      "label": "Planning/"
+    },
+    {
+      "id": "g-root",
+      "type": "group",
+      "x": -600,
+      "y": 450,
+      "width": 500,
+      "height": 650,
+      "color": "3",
+      "label": "Vault root"
+    },
+    {
+      "id": "g-ai",
+      "type": "group",
+      "x": 2250,
+      "y": 1560,
+      "width": 560,
+      "height": 420,
+      "color": "5",
+      "label": "AI Second Brain/"
+    },
+    {
+      "id": "g-start",
+      "type": "group",
+      "x": 300,
+      "y": 170,
+      "width": 500,
+      "height": 380,
+      "color": "5",
+      "label": "The Start/"
+    },
+    {
+      "id": "g-logs",
+      "type": "group",
+      "x": 3390,
+      "y": 170,
+      "width": 450,
+      "height": 280,
+      "color": "1",
+      "label": "LOGS/"
+    },
+    {
+      "id": "resources-index",
+      "type": "file",
+      "file": "Resources/Resources.md",
+      "x": 2125,
+      "y": 250,
+      "width": 560,
+      "height": 170,
+      "color": "5"
+    },
+    {
+      "id": "coding-db",
+      "type": "file",
+      "file": "Databases/Coding database.md",
+      "x": 2775,
+      "y": 255,
+      "width": 550,
+      "height": 165,
+      "color": "2"
+    },
+    {
+      "id": "logs",
+      "type": "file",
+      "file": "LOGS/Logs.md",
+      "x": 3415,
+      "y": 245,
+      "width": 400,
+      "height": 165,
+      "color": "1"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Primary Vault Map · Current organization · 30 October 2026",
+      "x": 423,
+      "y": -200,
+      "width": 2400,
+      "height": 110
+    },
+    {
+      "id": "weekly-review",
+      "type": "file",
+      "file": "Planning/Weekly Second Brain Review.md",
+      "x": 135,
+      "y": 1640,
+      "width": 580,
+      "height": 150,
+      "color": "6"
+    },
+    {
+      "id": "weekly-system",
+      "type": "file",
+      "file": "Planning/2026-11-01 - My Weekly System.excalidraw.md",
+      "x": 135,
+      "y": 1820,
+      "width": 580,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "todo-index",
+      "type": "file",
+      "file": "Planning/to do list/To do lists.md",
+      "x": 135,
+      "y": 2035,
+      "width": 580,
+      "height": 105,
+      "color": "6"
+    },
+    {
+      "id": "todo-day",
+      "type": "file",
+      "file": "Planning/to do list/To Do 181020261843.md",
+      "x": 135,
+      "y": 2165,
+      "width": 580,
+      "height": 160,
+      "color": "6"
+    },
+    {
+      "id": "audit",
+      "type": "file",
+      "file": "AI Second Brain/Audit Report.md",
+      "x": 2280,
+      "y": 1650,
+      "width": 500,
+      "height": 270,
+      "color": "5"
+    },
+    {
+      "id": "template-index",
+      "type": "file",
+      "file": "Reuse block/Obsidian Notes Template.md",
+      "x": 825,
+      "y": 1640,
+      "width": 1380,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "concept-template",
+      "type": "file",
+      "file": "Reuse block/Templates/Concept learned template.md",
+      "x": 825,
+      "y": 1810,
+      "width": 315,
+      "height": 245,
+      "color": "6"
+    },
+    {
+      "id": "study-template",
+      "type": "file",
+      "file": "Reuse block/Templates/Study Logs.md",
+      "x": 825,
+      "y": 2085,
+      "width": 315,
+      "height": 245,
+      "color": "6"
+    },
+    {
+      "id": "error-template",
+      "type": "file",
+      "file": "Reuse block/Templates/Error log template.md",
+      "x": 1160,
+      "y": 1810,
+      "width": 315,
+      "height": 245,
+      "color": "6"
+    },
+    {
+      "id": "project-template",
+      "type": "file",
+      "file": "Reuse block/Templates/The Project Template.md",
+      "x": 1160,
+      "y": 2085,
+      "width": 315,
+      "height": 245,
+      "color": "6"
+    },
+    {
+      "id": "github-template",
+      "type": "file",
+      "file": "Reuse block/Templates/GitHub repository Template.md",
+      "x": 1495,
+      "y": 1810,
+      "width": 315,
+      "height": 245,
+      "color": "6"
+    },
+    {
+      "id": "troubleshooting-template",
+      "type": "file",
+      "file": "Reuse block/Templates/Troubleshooting guide by me.md",
+      "x": 1495,
+      "y": 2085,
+      "width": 315,
+      "height": 245,
+      "color": "6"
+    },
+    {
+      "id": "resource-template",
+      "type": "file",
+      "file": "Reuse block/Templates/Resource template.md",
+      "x": 1830,
+      "y": 1810,
+      "width": 375,
+      "height": 245,
+      "color": "6"
+    },
+    {
+      "id": "weekly-template",
+      "type": "file",
+      "file": "Reuse block/Templates/Weekly Study time records Template.md",
+      "x": 1830,
+      "y": 2085,
+      "width": 375,
+      "height": 245,
+      "color": "6"
+    },
+    {
+      "id": "inbox",
+      "type": "file",
+      "file": "Inbox/Inbox.md",
+      "x": -575,
+      "y": 700,
+      "width": 450,
+      "height": 170,
+      "color": "3"
+    },
+    {
+      "id": "sorting",
+      "type": "file",
+      "file": "Sorting System.md",
+      "x": -575,
+      "y": 900,
+      "width": 450,
+      "height": 170,
+      "color": "3"
+    },
+    {
+      "id": "root-note",
+      "type": "text",
+      "text": "Root-level notes group here for clarity; these files live directly in the vault root.",
+      "x": -575,
+      "y": 530,
+      "width": 450,
+      "height": 130
+    },
+    {
+      "id": "start-here",
+      "type": "file",
+      "file": "The Start/Start Here.md",
+      "x": 325,
+      "y": 250,
+      "width": 450,
+      "height": 250,
+      "color": "5"
+    },
+    {
+      "id": "q-index",
+      "type": "file",
+      "file": "Memori/Q Notes/quick notes.md",
+      "x": 1585,
+      "y": 78,
+      "width": 410,
+      "height": 200,
+      "color": "4"
+    },
+    {
+      "id": "ai-stuff",
+      "type": "file",
+      "file": "Memori/AI Stuff.md",
+      "x": 927,
+      "y": 510,
+      "width": 410,
+      "height": 145,
+      "color": "4"
+    },
+    {
+      "id": "coding-q",
+      "type": "file",
+      "file": "Memori/Q Notes/Coding quick notes.md",
+      "x": 927,
+      "y": 840,
+      "width": 410,
+      "height": 145,
+      "color": "4"
+    },
+    {
+      "id": "temporary-q",
+      "type": "file",
+      "file": "Memori/Q Notes/Temporary.md",
+      "x": 927,
+      "y": 1110,
+      "width": 410,
+      "height": 145,
+      "color": "4"
+    },
+    {
+      "id": "memory",
+      "type": "file",
+      "file": "Memori/Memory.md",
+      "x": 908,
+      "y": 210,
+      "width": 410,
+      "height": 200,
+      "color": "4"
+    },
+    {
+      "id": "github",
+      "type": "file",
+      "file": "Memori/GitHub.md",
+      "x": 1575,
+      "y": 785,
+      "width": 410,
+      "height": 145,
+      "color": "4"
+    },
+    {
+      "id": "other-q",
+      "type": "file",
+      "file": "Memori/Q Notes/Other.md",
+      "x": 1575,
+      "y": 1070,
+      "width": 410,
+      "height": 145,
+      "color": "4"
+    },
+    {
+      "id": "youtube",
+      "type": "file",
+      "file": "Resources/Youtube/How to use claude code and combine different AI models to one.md",
+      "x": 2125,
+      "y": 908,
+      "width": 560,
+      "height": 155,
+      "color": "5"
+    },
+    {
+      "id": "tutorials",
+      "type": "file",
+      "file": "Resources/Youtube/important tutorials.md",
+      "x": 2125,
+      "y": 555,
+      "width": 560,
+      "height": 145,
+      "color": "5"
+    },
+    {
+      "id": "timer-db",
+      "type": "file",
+      "file": "Databases/Timer app/Timer Database.md",
+      "x": 2775,
+      "y": 618,
+      "width": 550,
+      "height": 165,
+      "color": "2"
+    },
+    {
+      "id": "support-note",
+      "type": "text",
+      "text": "**`.obsidian/`** — Obsidian settings and enabled core plugins.  **`.stfolder/`** — sync marker.  **`.trash/`** — Obsidian-managed trash; contains a weekly study summary matching the weekly template. These are support/retention areas, not regular knowledge folders.",
+      "x": 3360,
+      "y": 1620,
+      "width": 980,
+      "height": 300
+    },
+    {
+      "id": "legend",
+      "type": "text",
+      "text": "**How to read this map**  Colored frames show the actual folders. File cards point to notes using vault-relative paths. Arrows show selected index links. Empty notes remain visible where they are linked or serve as current placeholders.",
+      "x": 2815,
+      "y": 2055,
+      "width": 1600,
+      "height": 260
+    },
+    {
+      "id": "g-workflows",
+      "type": "group",
+      "x": 110,
+      "y": 2460,
+      "width": 900,
+      "height": 620,
+      "color": "6",
+      "label": "workflows/"
+    },
+    {
+      "id": "daily-learning-workflow",
+      "type": "file",
+      "file": "workflows/Daily Workflow.md",
+      "x": 135,
+      "y": 2520,
+      "width": 850,
+      "height": 145,
+      "color": "6"
+    },
+    {
+      "id": "daily-task-completion",
+      "type": "file",
+      "file": "workflows/Daily Task Completion.md",
+      "x": 135,
+      "y": 2690,
+      "width": 850,
+      "height": 145,
+      "color": "6"
+    },
+    {
+      "id": "weekly-completion-workflow",
+      "type": "file",
+      "file": "workflows/Weekly Completions and Documentation.md",
+      "x": 135,
+      "y": 2860,
+      "width": 850,
+      "height": 180,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-start-sort",
+      "fromNode": "start-here",
+      "fromSide": "bottom",
+      "toNode": "sorting",
+      "toSide": "top",
+      "color": "5",
+      "label": "sorting guide"
+    },
+    {
+      "id": "e-memory-q",
+      "fromNode": "memory",
+      "fromSide": "right",
+      "toNode": "q-index",
+      "toSide": "left",
+      "color": "4",
+      "label": "quick notes"
+    },
+    {
+      "id": "e-q-ai",
+      "fromNode": "q-index",
+      "fromSide": "bottom",
+      "toNode": "ai-stuff",
+      "toSide": "top",
+      "color": "4"
+    },
+    {
+      "id": "e-q-gh",
+      "fromNode": "q-index",
+      "fromSide": "bottom",
+      "toNode": "github",
+      "toSide": "top",
+      "color": "4"
+    },
+    {
+      "id": "e-q-code",
+      "fromNode": "q-index",
+      "fromSide": "bottom",
+      "toNode": "coding-q",
+      "toSide": "top",
+      "color": "4"
+    },
+    {
+      "id": "e-q-other",
+      "fromNode": "q-index",
+      "fromSide": "bottom",
+      "toNode": "other-q",
+      "toSide": "top",
+      "color": "4"
+    },
+    {
+      "id": "e-q-temp",
+      "fromNode": "q-index",
+      "fromSide": "bottom",
+      "toNode": "temporary-q",
+      "toSide": "top",
+      "color": "4"
+    },
+    {
+      "id": "e-res-tutorials",
+      "fromNode": "resources-index",
+      "fromSide": "bottom",
+      "toNode": "tutorials",
+      "toSide": "top",
+      "color": "5"
+    },
+    {
+      "id": "e-tut-video",
+      "fromNode": "tutorials",
+      "fromSide": "bottom",
+      "toNode": "youtube",
+      "toSide": "top",
+      "color": "5"
+    },
+    {
+      "id": "e-review-todo",
+      "fromNode": "weekly-review",
+      "fromSide": "bottom",
+      "toNode": "todo-index",
+      "toSide": "top",
+      "color": "6",
+      "label": "task index"
+    },
+    {
+      "id": "e-todo-day",
+      "fromNode": "todo-index",
+      "fromSide": "bottom",
+      "toNode": "todo-day",
+      "toSide": "top",
+      "color": "6"
+    },
+    {
+      "id": "e-review-system",
+      "fromNode": "weekly-review",
+      "fromSide": "bottom",
+      "toNode": "weekly-system",
+      "toSide": "top",
+      "color": "6",
+      "label": "weekly timetable"
+    },
+    {
+      "id": "e-workflow-session",
+      "fromNode": "daily-learning-workflow",
+      "fromSide": "bottom",
+      "toNode": "daily-task-completion",
+      "toSide": "top",
+      "color": "6",
+      "label": "daily session"
+    },
+    {
+      "id": "e-daily-weekly-completion",
+      "fromNode": "daily-task-completion",
+      "fromSide": "bottom",
+      "toNode": "weekly-completion-workflow",
+      "toSide": "top",
+      "color": "6",
+      "label": "weekly consolidation"
+    }
+  ]
+}
