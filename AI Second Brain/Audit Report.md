@@ -101,7 +101,7 @@ Operational areas are outside the regular note tree: `.obsidian/`, `.stfolder/`,
 
 4. **The workflow guide and map omit a current workflow.** The actual `workflows/` folder has four Markdown notes, including [[workflows/Kaizen%20Day%20Workflow]], while the folder description in [[Rules and Structure]], [[Sorting System]], and the canvas accounts for only three. The Kaizen workflow has no inbound or outbound wikilinks. Its filename contains literal `%20` sequences; this is an observed filename, while whether that spelling was intended is unknown. The file was not renamed.
 
-5. **Task tracking is split between two active locations.** Root-level [[TO do list]] contains several actions, while `Planning/to do list/` has its own index and dated task note. The lists do not contain an exact duplicate task in the inspected samples, but there are two places to check for next actions.
+5. **Task tracking is split between two active locations.** Root-level [[TO DO LIST]] contains several actions, while `Planning/to do list/` has its own index and dated task note. The lists do not contain an exact duplicate task in the inspected samples, but there are two places to check for next actions.
 
 6. **Several navigation lists have unfinished numbered entries.** `The Start/Start Here.md` ends with `7)`, `Memori/Memory.md` with `3)`, `Resources/Resources.md` with `2)`, and `Reuse block/Obsidian Notes Template.md` with `9)`. These may be placeholders, but they read as incomplete indexes. The original Start Here page is unchanged and should stay protected unless the user changes that instruction.
 
