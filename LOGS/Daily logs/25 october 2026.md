@@ -34,7 +34,7 @@ Designed the foundations of the AI Second Brain and structured learning system, 
 - [[Planning/Weekly Second Brain Review|Weekly Second Brain Review]]
 
 ## Sessions
-- [[LOGS/2026-10-25 to 2026-11-01/25102026A]] — Existing afternoon session record.
+- [[25102026A]] — Existing afternoon session record.
 
 ## Reflection
 The day's work established the vault rules, learning sequence, and review cadence for the system.
