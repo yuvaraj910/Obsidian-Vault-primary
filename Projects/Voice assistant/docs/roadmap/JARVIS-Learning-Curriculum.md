@@ -69,7 +69,7 @@ The exact model, device, and latency budget are open decisions. Benchmark on the
 | Prerequisites | Python functions, arrays, file handling, and basic units (samples per second, bytes, milliseconds). |
 | Purpose | ASR quality and responsiveness depend on feeding the recognizer correctly shaped, correctly timed audio. |
 | Application | Push-to-talk capture, audio playback, future streaming transcription, speech output, and performance measurement. |
-| Practical work | Record and replay short WAV files with SoundDevice and NumPy; print device/sample metadata; make a waveform or simple level meter; compare 16 kHz mono with the device’s native format. |
+| Practical work | Record and replay short WAV files with SoundDevice and NumPy; treat PyAudio as an alternative backend to compare only if device support requires it; print device/sample metadata; make a waveform or simple level meter; compare 16 kHz mono with the device’s native format. |
 | Completion criteria | Record, replay, and close the device cleanly; identify sample rate, channels, duration, and clipping; document capture-to-playback latency on the test machine. |
 | Priority | Essential. |
 | Recommended docs | [SoundDevice documentation](https://python-sounddevice.readthedocs.io/en/latest/), [NumPy beginner guide](https://numpy.org/doc/stable/user/absolute_beginners.html), [Python wave module](https://docs.python.org/3/library/wave.html). |
@@ -93,14 +93,14 @@ The exact model, device, and latency budget are open decisions. Benchmark on the
 | Field | Plan |
 |---|---|
 | Subject | A bounded assistant loop that responds and performs predefined actions. |
-| Subtopics | Text normalization; exact and fuzzy matching; intent classification; command schemas; routing; command registration; state and history; response construction; TTS; UI states (idle/listening/thinking/speaking/error); cancellations; safe file and time/date operations; OS launch adapters. |
+| Subtopics | Text normalization; exact and fuzzy matching; intent classification; command schemas; routing; command registration; state and history; response construction; TTS; UI states (idle/listening/thinking/speaking/error); cancellations; safe file and time/date operations with os/pathlib; narrowly scoped subprocess adapters for app launch. |
 | Prerequisites | Python modules, error handling, test writing, ASR output. |
 | Purpose | A predictable command system proves useful interaction without relying on a language model. |
 | Application | V0.3 voice assistant. Start with a short allowlist such as time/date, help, stop, and open a harmless local application. |
 | Practical work | Implement 5–8 read-only or reversible commands with typed arguments; add pyttsx3 output; expose transcript, state, and cancellation in a small Tkinter interface. |
 | Completion criteria | Each command has tests for valid, ambiguous, and invalid input; unknown phrases produce a safe response; no command executes arbitrary transcript text; the user can stop listening and speech. |
 | Priority | Essential. |
-| Recommended docs | [Tkinter](https://docs.python.org/3/library/tkinter.html), [subprocess security guidance](https://docs.python.org/3/library/subprocess.html), [pyttsx3](https://github.com/nateshmbhat/pyttsx3). |
+| Recommended docs | [Tkinter](https://docs.python.org/3/library/tkinter.html), [pathlib](https://docs.python.org/3/library/pathlib.html), [os](https://docs.python.org/3/library/os.html), [subprocess security guidance](https://docs.python.org/3/library/subprocess.html), [pyttsx3](https://github.com/nateshmbhat/pyttsx3). |
 
 ### 6. Continuous listening, concurrency, and offline voice
 
@@ -177,7 +177,7 @@ The exact model, device, and latency budget are open decisions. Benchmark on the
 | Field | Plan |
 |---|---|
 | Subject | A lightweight, permission-aware Android client. |
-| Subtopics | Android app lifecycle; runtime permissions; microphone/camera permissions; foreground-service restrictions; local storage; ADB; Termux; REST/WebSocket clients; device identity; reconnection; battery and thermal behavior; TLS; Android UI states. |
+| Subtopics | Android app lifecycle; runtime permissions; microphone/camera permissions; background execution and foreground-service restrictions; local storage; ADB; Termux; REST/WebSocket clients; device identity; reconnection; battery and thermal behavior; TLS; Android UI states. |
 | Prerequisites | API concepts and basic client/server debugging. Native Android development can wait until the API contract is stable. |
 | Purpose | Use the Infinix Smart 7 as a microphone, speaker, screen, camera, and remote control while inference runs on the PC. |
 | Application | V0.6. Begin with push-to-talk and status; camera and background audio are separate, explicit features. |
@@ -205,7 +205,7 @@ The exact model, device, and latency budget are open decisions. Benchmark on the
 | Field | Plan |
 |---|---|
 | Subject | Combining text, audio, images, gestures, and device events. |
-| Subtopics | Timestamps; event IDs; modality-specific confidence; synchronization windows; snapshot versus continuous video; cancellation; bounded queues; asynchronous inference; context selection; result provenance; ambiguity handling. |
+| Subtopics | Vision-language models and image/audio understanding; timestamps; event IDs; modality-specific confidence; sensor fusion and synchronization windows; snapshot versus continuous video; cancellation; bounded queues; asynchronous inference; context selection; result provenance; ambiguity handling. |
 | Prerequisites | Stable audio and vision adapters; event/API contracts; basic concurrency and model inference. |
 | Purpose | Combine a voice request with a specific, user-authorized snapshot or gesture without treating unrelated sensor data as context. |
 | Application | V0.8 “point at an object and ask about it” flow. |
@@ -219,7 +219,7 @@ The exact model, device, and latency budget are open decisions. Benchmark on the
 | Field | Plan |
 |---|---|
 | Subject | Clear interaction and visible system state. |
-| Subtopics | Push-to-talk; listening/thinking/speaking states; transcripts; confirmations; error recovery; keyboard and touch access; contrast; focus; responsive layouts; audio level and latency indicators; privacy controls. |
+| Subtopics | Push-to-talk; listening/thinking/speaking states; transcripts; confirmations; error recovery; keyboard and touch access; contrast; focus; Tkinter desktop UI; HTML/CSS/JavaScript web UI; responsive layouts; audio level and latency indicators; privacy controls. |
 | Prerequisites | A working command loop and API boundaries. |
 | Purpose | Make the assistant understandable, interruptible, and usable when speech recognition fails. |
 | Application | Tkinter desktop interface first; web/mobile surfaces after the engine API settles. |
