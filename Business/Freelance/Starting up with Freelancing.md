@@ -1,4 +1,7 @@
 # Different Ideas for Freelance
 
-# Creating Websites (With AI)
-# Creating android apps for
+# Selling Websites (With AI)
+
+# Selling android apps for other businesses 
+
+# 
