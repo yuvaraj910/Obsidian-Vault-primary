@@ -1,1 +1,2 @@
-Differnt 
+# Different Ideas for Freelance
+
