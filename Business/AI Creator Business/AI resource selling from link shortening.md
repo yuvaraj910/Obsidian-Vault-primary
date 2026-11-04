@@ -1,3 +1,4 @@
 
 #### Has very less potential early on 
-#### Requi
+#### Requires a lot traffic
+#### Realistic performance expectation with an social account
