@@ -14,5 +14,6 @@
 	
 - Reach the trekking Start point
 	Reach till 2:30
+	Trekking takes 3 hours almost 
 	
 - Reach the summit At sharp 5:30 or early
