@@ -13,4 +13,6 @@
 	Cost - 150 per person
 	
 - Reach the trekking Start point
-	
+	Reach till 2:30
+	.
+- Reach the summit 
