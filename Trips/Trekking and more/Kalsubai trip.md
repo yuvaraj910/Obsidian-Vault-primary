@@ -14,5 +14,5 @@
 	
 - Reach the trekking Start point
 	Reach till 2:30
-	.
-- Reach the summit 
+	
+- Reach the summit Till 5:30
