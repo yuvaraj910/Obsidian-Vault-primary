@@ -1,7 +1,7 @@
-## Meet at Andheri station at 10:00 pm
+## Meet at Andheri station at 9:00 pm
 
 - metro from **Andheri to Ghatkoper**
-	Reach till 10:00 - 11:00 ; 
+	Reach till 9:30 - 10:00 ; 
 	Cost - 30 ;
 	
 - local Train from **Ghatkoper Station to Kasara Station**
@@ -22,4 +22,5 @@
 	
 	
 	
-- 
+- Enjoy the Sunrise
+	
