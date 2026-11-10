@@ -1,5 +1,6 @@
 ## Meet at Andheri station
 
 - metro from **Andheri to Ghatkoper**
-- local Train from **Ghatkoper Station**
-- Jeep ride From 
+- local Train from **Ghatkoper Station to Kasara Station**
+- Jeep ride From **Kasara Station To Bari Village** 
+- 
