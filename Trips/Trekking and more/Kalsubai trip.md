@@ -1,13 +1,13 @@
-## Meet at Andheri station at 9:00 pm
+## Meet at Andheri station at 8:00 pm
 
 - metro from **Andheri to Ghatkoper**
-	Reach till 9:30 - 10:00 ; 
+	Reach till 8:30 - 9:00 ; 
 	Cost - 30 ;
 	
 - local Train from **Ghatkoper Station to Kasara Station**
-	Reach till 12:30 - 1:00
-	Cost - 40
-	Transit Time - 2 - 2.5 hours
+	Reach till 12:00 - 1:00 ;
+	Cost - 40 ;
+	Transit Time - 2 - 2.5 hours ;
 	
 - Jeep ride From **Kasara Station To Bari Village**
 	Reach till 1:00-1:30
