@@ -23,5 +23,6 @@
 	
 	
 - Enjoy the Sunrise
-	Enjoy the predawn 
+	Enjoy the predawn colors 
+	sunrise at 6:15-6:30
 	
