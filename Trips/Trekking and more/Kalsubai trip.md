@@ -7,13 +7,14 @@
 - local Train from **Ghatkoper Station to Kasara Station**
 	Reach till 12:30 - 1:00
 	Cost - 40
+	Transit Time - 
 	
 - Jeep ride From **Kasara Station To Bari Village**
-	Reach till 2:00-2:30
+	Reach till 1:00-1:30
 	Cost - 150 per person
 	
 - Reach the trekking Start point
-	Reach till 2:30
-	Trekking takes 3 hours almost 
+	Reach till 2:00
+	Trekking takes 3-4 hours almost 
 	
 - Reach the summit At sharp 5:30 or early
