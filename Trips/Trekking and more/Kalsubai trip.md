@@ -18,3 +18,5 @@
 	Trekking takes 3-4 hours almost 
 	
 - Reach the summit At sharp 5:30 or early
+	Take rest
+	
