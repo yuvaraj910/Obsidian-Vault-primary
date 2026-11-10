@@ -10,7 +10,7 @@
 	Transit Time - 2 - 2.5 hours ;
 	
 - Jeep ride From **Kasara Station To Bari Village**
-	Reach till 12:30-1:30
+	Reach till 1:00-1:30
 	Cost - 150 per person
 	
 - Reach the trekking Start point
