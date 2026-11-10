@@ -14,7 +14,7 @@
 	Cost - 150 per person
 	
 - Reach the trekking Start point
-	Reach till 2:00
+	Reach till 1:00 - 1:30
 	Trekking takes 3-4 hours almost 
 	
 - Reach the summit At sharp 5:30 or early
@@ -23,4 +23,5 @@
 	
 	
 - Enjoy the Sunrise
+	Enjoy the predawn 
 	
