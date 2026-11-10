@@ -1,3 +1,5 @@
 ## Meet at Andheri station
 
-- metro from 
+- metro from **Andheri to Ghatkoper**
+- local Train from **Ghatkoper Station**
+- Jeep ride From 
