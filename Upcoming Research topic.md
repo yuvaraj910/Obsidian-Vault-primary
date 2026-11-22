@@ -1,7 +1,7 @@
 
 
 
-1. ==🟣Overco==
+1. ==🟣Overcome your weak points==
 2. ==🟣**how to start building network**==
 3. ==🟣**Learn to use uncensored AI**==
 4. ==🟣**Optimization of workflows - Finding out to accelerate the acceleration while staying within normal human limits==**
